@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.img-wrap {
+  margin: 0 auto;
+}
+
+.img-img {
+  display: block;
+  max-width: 65vw;
+  max-height: 65vh;
+  min-width: 30vw;
+  min-height: 30vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.buttons-wrap {
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cat-button {
+  background-color: #ff5a5a;
+  border-bottom: 5px solid #b80000;
+  margin-left: 0;
+}
+
+.cat-button:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #fc0000;
+  border-bottom: 2px solid #990000;
+}
+
+.dog-button {
+  margin-left: 10px;
+  background-color: #5d4ef9;
+  border-bottom: 5px solid #0f00b8;
+}
+
+.dog-button:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #1400f5;
+  border-bottom: 2px solid #0900b8;
+}
+
+.goat-button {
+  background-color: #fc9a54;
+  border-bottom: 5px solid #b84c00;
+  margin-left: 10px;
+}
+
+.goat-button:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
